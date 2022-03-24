@@ -12,6 +12,7 @@ class EmailSanitizer < ApplicationRecord
                               :password   => '8574625441',
                               :enable_ssl => true
     end
+    
     def set_attributes_value 
       email = Mail.find(:what => :first, :count => 10, :order => :asc)
       if email.empty?
