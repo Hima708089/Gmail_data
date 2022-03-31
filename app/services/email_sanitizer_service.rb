@@ -6,11 +6,11 @@ class EmailSanitizerService
   end
 
   def execute!
-    #byebug
+    byebug
     
     {
-      in_time: in_time,
-      out_time: out_time,
+      intime: in_time,
+      outtime: out_time,
       task1: task1,
       task2: task2,
       week_goals:week_goals,
