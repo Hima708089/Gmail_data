@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_03_23_112809) do
+ActiveRecord::Schema[7.0].define(version: 2022_03_30_072809) do
   create_table "email_sanitizers", force: :cascade do |t|
     t.string "intime"
     t.string "outtime"
@@ -24,12 +24,11 @@ ActiveRecord::Schema[7.0].define(version: 2022_03_23_112809) do
   end
 
   create_table "employee_statuses", force: :cascade do |t|
-    t.string "in_time"
-    t.string "out_time"
+    t.string "intime"
+    t.string "outtime"
     t.string "task1"
     t.string "task2"
     t.string "week_goals"
-    t.string "project_name"
     t.string "productive_hour"
     t.string "email_date"
     t.string "sent_by"

@@ -1,12 +1,11 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  in_time: MyString
-  out_time: MyString
+  intime: MyString
+  outtime: MyString
   task1: MyString
   task2: MyString
   week_goals: MyString
-  project_name: MyString
   productive_hour: MyString
   email_date: MyString
   sent_by: MyString
@@ -14,12 +13,11 @@ one:
   email_subject: MyString
 
 two:
-  in_time: MyString
-  out_time: MyString
+  intime: MyString
+  outtime: MyString
   task1: MyString
   task2: MyString
   week_goals: MyString
-  project_name: MyString
   productive_hour: MyString
   email_date: MyString
   sent_by: MyString

@@ -9,8 +9,8 @@ emails = Mail.find(:what => :first, :count => 10, :order => :asc)
 		p "No Emails"
 	else
 	emails.each do |email|
-		#byebug
 	   obj = EmailSanitizerService.new(email).execute!
+	   #byebug
 	   EmployeeStatus.create(obj)
 	end
 end
